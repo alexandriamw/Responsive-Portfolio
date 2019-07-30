@@ -9,12 +9,13 @@
 }
 
 header {
-    max-width: 960px;
+    max-width: 980px;
     width: 100%;
     margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 10px;
 }
 
 h1 {
@@ -47,14 +48,19 @@ body {
     font-family: 'Arial', 'Helvetica Neue', 'Helvetica', 'sans-serif';
 }
 
-section {
+main {
     background-color: #ffffff;
-    max-width: 960px;
-    width: 100%;
-    margin: 0 auto 100px auto;
+    width: 66%;
     border: solid #dddddd 2px;
     padding: 10px 30px 20px 30px;
     overflow: auto;
+}
+
+section {
+    padding: 0 10px;
+    max-width: 980px;
+    width: 100%;
+    margin: 0 auto 100px auto;
 }
 
 h2 {
@@ -64,11 +70,73 @@ h2 {
     padding-bottom: 20px;
 }
 
+form {
+    color: #777777;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+textarea {
+    width: 100%;
+    margin: 10px 0px;
+    color: #777777;
+    border: 1px solid #777777;
+}
+
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 8px 18px;
+    margin-top: 8px;
+    border: none;
+    width: 100px;
+}
+
+button:hover {
+    background-color: #f4a261;
+    color: black;
+}
+
 .photo {
     height: auto;
     width: 200px;
     float: left;
     margin: 0 30px 20px 0;
+}
+
+
+.photo-label {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-weight: normal;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.portfolio-photo {
+    height: auto;
+    width: 100%;
+}
+
+.photo-container {
+    position: relative;
+}
+
+.photos-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    width: 66%;
 }
 
 p {
@@ -92,4 +160,31 @@ h6 {
     color: #ffffff;
     padding: 0;
     margin: 0;
+}
+
+@media screen and (max-width: 980px) {
+    /* no styles needed here */
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        width: 100%;
+    }
+
+    header {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    nav {
+        width: 100%;
+        text-align: center;
+        padding: 15px 10px;
+    }
 }
