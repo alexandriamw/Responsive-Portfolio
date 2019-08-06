@@ -123,6 +123,10 @@ button:hover {
     margin: 0;
 }
 
+.photo-label-text {
+    color: #ffffff;
+}
+
 .portfolio-photo {
     height: auto;
     width: 100%;
