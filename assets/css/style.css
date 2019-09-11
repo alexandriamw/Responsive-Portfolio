@@ -4,7 +4,7 @@
 
 .header-container {
     background: #26547c;
-    border-bottom: 4px solid #0b2545;
+    border-bottom: 5px solid #0b2545;
     margin-bottom: 30px;
 }
 
@@ -28,6 +28,10 @@ h1 {
 a {
     color: #fcfcfc;
     text-decoration: none;
+}
+
+h3 {
+    color: #fcfcfc;
 }
 
 body {
