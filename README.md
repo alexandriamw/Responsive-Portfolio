@@ -2,4 +2,4 @@
 
 GitHub Pages link: https://alexandriamw.github.io/Responsive-Portfolio/
 
-This website shares a little about me, a form to contact me (not working right now) and a couple of my projects (links work for Psychic Game, Crystals Collector, Trivia Game, and GifTastic). Try them out!
+My portfolio shares a little about me, a few of my projects (with links to check them out!) and my contact info. You can also view my resume and find my LinkedIn profile.
