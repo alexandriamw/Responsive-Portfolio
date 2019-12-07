@@ -3,8 +3,8 @@
 }
 
 .header-container {
-    background: #26547c;
-    border-bottom: 5px solid #0b2545;
+    background: #393744;
+    border-bottom: 5px solid #24232B;
     margin-bottom: 30px;
 }
 
@@ -17,7 +17,6 @@ header {
 }
 
 h1 {
-    font-family: 'Manjari', sans-serif;
     font-size: 40px;
     color: #fcfcfc;
     text-align: center;
@@ -35,16 +34,17 @@ h3 {
 }
 
 body {
-    background: #e07a5f;
+    background: #556070;
     margin: 0;
-    font-family: 'Manjari', sans-serif;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: .5px;
 }
 
 .block {
-    background-color: #26547c;
+    background-color: #364060;
     border-radius: 8px;
     width: 100%;
-    border: solid #0b2545 4px;
+    border: solid #24232B 4px;
     padding: 10px 30px 20px 30px;
     overflow: auto;
 }
@@ -58,9 +58,8 @@ section {
 
 h2 {
     color: #fcfcfc;
-    font-family: 'Manjari', sans-serif;
     font-size: 28px;
-    border-bottom: 3px solid #0b2545;
+    border-bottom: 3px solid #24232B;
     padding-bottom: 20px;
 }
 
@@ -72,11 +71,10 @@ h2 {
 }
 
 .photo-label {
-    background-color: #0b2545;
+    background-color: #24232B;
     color: #fcfcfc;
     text-align: center;
     padding: 12px 0 8px 0;
-    font-family: 'Manjari', sans-serif;
     font-weight: normal;
     font-size: 20px;
     width: 100%;
@@ -107,8 +105,8 @@ h2 {
 }
 
 footer {
-    background-color: #26547c;
-    border-top: #0b2545 solid 4px;
+    background-color: #393744;
+    border-top: #24232B solid 4px;
     padding-bottom: 5px;
     padding-top: 50px;
     position: fixed;
